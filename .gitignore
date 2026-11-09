@@ -1,0 +1,21 @@
+# Server credentials and locally generated configuration
+server.cfg
+*.env
+!.env.example
+
+# FiveM runtime data
+cache/
+server-cache/
+server-cache-priv/
+txData/
+artifacts/
+logs/
+*.log
+
+# Node.js dependencies
+node_modules/
+
+# Local editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
